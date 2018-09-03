@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="{{ assetsUrl('images/default/logo.webp') }}">
+
+    <!-- CSS -->
+    {{ style('semantic-ui/semantic.min') }}
+    {{ script('js/jquery-3.3.1.min') }}
+    {{ script('semantic-ui/semantic.min') }}
+
+    <title> Kiddeepass </title>
+  </head>
+  <body>
+    @include('component/navbar')
+
+    <div class="ui container" style="margin-top: 6em;">
+      @!section('content')
+    </div>
+
+  </body>
+</html>
